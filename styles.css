@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+}
+
+/* Layout */
+
+body {
+  background-image: linear-gradient(
+    to top,
+    #171430,
+    #443257,
+    #76547e,
+    #ae77a5,
+    #e99dcb
+  );
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+/* Typography */
+
+h1,
+h2,
+p {
+  color: #fff;
+  margin: 20px;
+}
